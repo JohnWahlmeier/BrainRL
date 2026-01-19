@@ -793,4 +793,5 @@ if __name__ == '__main__':
     finally:
         if overall_results:
             print("\nAttempting to plot results collected so far...")
+
             plot_combined_results(overall_results, cfg.timesteps_per_batch)
